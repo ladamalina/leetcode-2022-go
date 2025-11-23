@@ -7,7 +7,7 @@ import (
 )
 
 func TestWiggleSort(t *testing.T) {
-	tests := []struct { // добавляем слайс тестов
+	tests := []struct {
 		name string
 		nums []int
 	}{
