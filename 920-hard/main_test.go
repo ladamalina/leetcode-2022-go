@@ -29,7 +29,7 @@ func TestNumMusicPlaylists(t *testing.T) {
 			want: 6,
 		},
 		{
-			name: "case 2",
+			name: "case 3",
 			n:    2,
 			g:    3,
 			k:    1,

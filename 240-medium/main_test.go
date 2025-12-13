@@ -27,7 +27,9 @@ func TestSearchMatrix(t *testing.T) {
 		},
 	}
 	for _, test := range tests {
+		test := test
 		t.Run(test.name, func(t *testing.T) {
+			t.Parallel()
 			assert.Equal(t, searchMatrix(test.matrix, test.target), test.want)
 		})
 	}
